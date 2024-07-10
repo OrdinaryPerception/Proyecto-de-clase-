@@ -39,6 +39,12 @@ Pruebas y depuración: Se realización pruebas exhaustivas para garantizar el fu
 
 ## Implementación con grafos
 
+Un grafo es una estructura similar a un árbol pero con versatilidad aumentada, pues no limita las relaciones que puedan existir entre nodos. Debido a que esa característica es fundamental en un grafo, se quiso que la implementación no desaprovechara dicha versatilidad.
+
+Para esta implementación se usó la librería igraph, ya que facilita mucho la creación y operaciones con grafos, además posee un método útil ( select( ) ) el cual genera listas de nodos (objeto vertexseq) que contiene los nodos que pasan por un determinado filtro.
+
+Debido a la naturaleza del proyecto, se decidió que cada nodo del grafo representara un libro con sus metadatos adjuntos (nombre, autor, año, etc). Cada nodo añadido al grafo tendrá un código único basado en la información del libro que representa. Para las conexiones entre nodos se pensó que tal vez la opción mas apropiada sería relacionar los libros que contengan similitudes.
+
 ## Conclusiones
 
 
