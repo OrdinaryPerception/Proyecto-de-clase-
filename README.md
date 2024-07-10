@@ -48,4 +48,14 @@ Debido a la naturaleza del proyecto, se decidió que cada nodo del grafo represe
 
 ## Conclusiones
 
+Cada estructura de datos tiene sus propias ventajas y desventajas, y la elección de cuál utilizar depende de los requisitos específicos del sistema de gestión de biblioteca.
+
+Para proyectos simples con necesidades básicas de inserción, eliminación y búsqueda secuencial de datos, una lista enlazada puede ser suficiente.
+
+Para una mayor eficiencia en la búsqueda y ordenamiento de datos, un árbol de búsqueda binaria es una opción adecuada, siempre que se considere el balanceo del árbol para mantener su eficiencia.
+
+Para un sistema más complejo que necesita manejar relaciones detalladas entre múltiples elementos, como libros relacionados por varios atributos (autor, tema, año, etc.), los grafos son la mejor opción debido a su flexibilidad y capacidad para gestionar conexiones complejas.
+
+En resumen, la elección de la estructura de datos debe basarse en la complejidad de las relaciones y operaciones necesarias en el sistema de gestión de biblioteca. Las listas son útiles para casos simples, los árboles ofrecen un buen equilibrio entre complejidad y eficiencia, y los grafos proporcionan la mayor flexibilidad para modelar relaciones complejas
+
 
