@@ -1,4 +1,4 @@
-# Segunda-Entrega-Parcial-Proyecto-de-clase-
+# Entrega-Final-Proyecto-de-clase-
 
 Proyecto Estruc.de.Datos y Análisis de Algoritmos
 
